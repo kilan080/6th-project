@@ -28,8 +28,12 @@ section {
 ul {
   list-style: none;
 }
-.bar i {
+.bar {
   display: none;
+}
+.bar img {
+  width: 40px;
+  height: 40px;
 }
 a {
   text-decoration: none;
@@ -56,11 +60,8 @@ nav {
   color: white;
   padding: 20px 0;
 }
-.bar i {
-  display: none;
-  color: #dc0000;
-  cursor: pointer;
-  font-size: 25px;
+nav  {
+  padding: 20px 20px;
 }
 .logo {
   font-size: 32px;
@@ -252,11 +253,14 @@ nav ul li:hover {
   .logo {
     font-size: 30px;
   }
-  .bar i {
+  .bar {
     display: block;
     color: #Fff;
-    font-size: 30px;
+    font-size: 30px;  
 
+  }
+  .hero-section {
+  height: 45vh;
   }
   .container h1 {
     font-size: 40px;
@@ -343,6 +347,7 @@ nav ul li:hover {
     .bar i {
       display: block;
       color: #Fff;
+      background-color: inherit;
       font-size: 25px;
 
     }
